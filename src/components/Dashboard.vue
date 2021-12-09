@@ -2,7 +2,7 @@
   <div id="burger-table">
       <div>
           <div id="burger-table-heading">
-              <div class="order-id">id</div>
+              <div class="order-id">#:</div>
               <div>Cliente:</div>
               <div>Pão</div>
               <div>Carne:</div>
