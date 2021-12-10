@@ -83,17 +83,6 @@
   ],
   "burgers": [
     {
-      "nome": "ANDERSON A NOBREGA",
-      "carne": "Alcatra",
-      "pao": "Parmesão e Orégano",
-      "opcionais": [
-        "Cheddar",
-        "Tomate"
-      ],
-      "status": "Finalizado",
-      "id": 3
-    },
-    {
       "nome": "Victor Martinez",
       "carne": "Alcatra",
       "pao": "3 Queijos",
@@ -101,7 +90,7 @@
         "Bacon",
         "Cheddar"
       ],
-      "status": "Solicitado",
+      "status": "Em produção",
       "id": 5
     },
     {
@@ -113,49 +102,8 @@
         "Cebola roxa",
         "Pepino"
       ],
-      "status": "Solicitado",
-      "id": 6
-    },
-    {
-      "nome": "Mel",
-      "carne": "Maminha",
-      "pao": "Pão Mexicano",
-      "opcionais": [
-        "Bacon",
-        "Salame",
-        "Cebola roxa",
-        "Pepino",
-        "Cheddar",
-        "Tomate"
-      ],
       "status": "Em produção",
-      "id": 8
-    },
-    {
-      "nome": "Alice",
-      "carne": "Picanha",
-      "pao": "3 Queijos",
-      "opcionais": [
-        "Tomate",
-        "Cheddar"
-      ],
-      "status": "Solicitado",
-      "id": 9
-    },
-    {
-      "nome": "Toddy",
-      "carne": "Picanha",
-      "pao": "Italiano Branco",
-      "opcionais": [
-        "Bacon",
-        "Salame",
-        "Cebola roxa",
-        "Pepino",
-        "Tomate",
-        "Cheddar"
-      ],
-      "status": "Solicitado",
-      "id": 10
+      "id": 6
     },
     {
       "nome": "Kira",

@@ -1,5 +1,5 @@
-<template>
-  <div class="message-container">
+<template>                              <!--componente coringa que pode sair utilizado em varios outros componentes-->
+  <div class="message-container">      <!--pois é só uma exibição de uma menssagem-->
       <p>{{msg}}</p>
   </div>
 </template>
