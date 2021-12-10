@@ -1,5 +1,5 @@
-<template>                              <!--componente coringa que pode sair utilizado em varios outros componentes-->
-  <div class="message-container">      <!--pois é só uma exibição de uma menssagem-->
+<template>             
+  <div class="message-container">
       <p>{{msg}}</p>
   </div>
 </template>
@@ -23,4 +23,4 @@ export default {
     max-width: 400px;
     margin: 30px auto;
 }
-</style>>
+</style>

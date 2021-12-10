@@ -81,41 +81,5 @@
       "tipo": "Finalizado"
     }
   ],
-  "burgers": [
-    {
-      "nome": "Victor Martinez",
-      "carne": "Alcatra",
-      "pao": "3 Queijos",
-      "opcionais": [
-        "Bacon",
-        "Cheddar"
-      ],
-      "status": "Em produção",
-      "id": 5
-    },
-    {
-      "nome": "Laura Prado",
-      "carne": "Veggie burger",
-      "pao": "Integral",
-      "opcionais": [
-        "Tomate",
-        "Cebola roxa",
-        "Pepino"
-      ],
-      "status": "Em produção",
-      "id": 6
-    },
-    {
-      "nome": "Kira",
-      "carne": "Maminha",
-      "pao": "Parmesão e Orégano",
-      "opcionais": [
-        "Bacon",
-        "Salame",
-        "Cheddar"
-      ],
-      "status": "Em produção",
-      "id": 11
-    }
-  ]
+  "burgers": []
 }

@@ -10,7 +10,7 @@
               <div>Opcionais:</div>
               <div>Ações:</div>
           </div>
-      </div>
+    </div>
     <div id="burger-table-rows">
         <div class="burger-table-row" v-for="burger in burgers" :key="burger.id">
             <div class="order-number">{{burger.id}}</div>
@@ -50,7 +50,7 @@ export default {
             msg: null
         }
     },
-    components: {
+   components: {
         Message
     },
     methods: {
