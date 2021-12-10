@@ -24,7 +24,7 @@
                 </ul>
             </div>
             <div>
-                <select name="status" class="status">
+                <select name="status" class="status" @change="updateBurger($event, burger.id)"><!-- quando houver uma mudança no select vai rodar a func-->
                     <option :value="s.tipo" v-for="s in status" :key="s.id" :selected="burger.status === s.tipo">
                         {{s.tipo}}
                     </option>
@@ -55,8 +55,6 @@ export default {
 
             this.burgers = data //dados que vieram estou transformando no burger que esta criado em data, ent troca o valor de null para oque veio do "servidor"
             
-            console.log(this.burgers)
-            
             //resgatar os status
             this.getStatus();
 
@@ -72,13 +70,32 @@ export default {
         },
         async deleteBurger(id){//recebe id para saber qual esta excluindo
           
-          const req = await fetch(`http://localhost:3000/burgers/${id}`, { //estou passando um id por isso o ``
+           const req = await fetch(`http://localhost:3000/burgers/${id}`, { //estou passando um id por isso o ``
             method: "DELETE" //essa continuação é algo especifico do Json server
           })
 
           const res = await req.json()
           
           //msg
+
+          this.getPedidos()
+
+        },
+        async updateBurger(event, id){
+          
+          const option = event.target.value //option recebe o botão que usuario clicou
+
+          const dataJson = JSON.stringify({status: option})//colocando em string o json de status para poder atualizar no banco
+
+          const req = await fetch(`http://localhost:3000/burgers/${id}`, { //acessa bd e atualiza o status dele com value da opcão escolhida
+            method: "PATCH", //Patch é como update, mas so atualiza aquele que enviamos
+            headers: { "Content-Type" : "application/json" },
+            body: dataJson
+          })
+
+          const res = await req.json()
+
+          console.log(res)
 
         }
     },

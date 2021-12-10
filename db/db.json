@@ -83,26 +83,6 @@
   ],
   "burgers": [
     {
-      "nome": "asdfghj",
-      "carne": "Picanha",
-      "pao": "3 Queijos",
-      "opcionais": [
-        "Bacon"
-      ],
-      "status": "Solicitado",
-      "id": 1
-    },
-    {
-      "nome": "ANDERSON A NOBREGA",
-      "carne": "Maminha",
-      "pao": "3 Queijos",
-      "opcionais": [
-        "Cheddar"
-      ],
-      "status": "Solicitado",
-      "id": 2
-    },
-    {
       "nome": "ANDERSON A NOBREGA",
       "carne": "Alcatra",
       "pao": "Parmesão e Orégano",
@@ -110,20 +90,8 @@
         "Cheddar",
         "Tomate"
       ],
-      "status": "Solicitado",
+      "status": "Finalizado",
       "id": 3
-    },
-    {
-      "nome": "Victor Martinez",
-      "carne": "Veggie burger",
-      "pao": "Italiano Branco",
-      "opcionais": [
-        "Salame",
-        "Bacon",
-        "Cheddar"
-      ],
-      "status": "Solicitado",
-      "id": 4
     },
     {
       "nome": "Victor Martinez",
@@ -149,20 +117,6 @@
       "id": 6
     },
     {
-      "nome": "Kira",
-      "carne": "Picanha",
-      "pao": "Parmesão e Orégano",
-      "opcionais": [
-        "Bacon",
-        "Salame",
-        "Cebola roxa",
-        "Pepino",
-        "Cheddar"
-      ],
-      "status": "Solicitado",
-      "id": 7
-    },
-    {
       "nome": "Mel",
       "carne": "Maminha",
       "pao": "Pão Mexicano",
@@ -174,7 +128,7 @@
         "Cheddar",
         "Tomate"
       ],
-      "status": "Solicitado",
+      "status": "Em produção",
       "id": 8
     },
     {
@@ -187,6 +141,33 @@
       ],
       "status": "Solicitado",
       "id": 9
+    },
+    {
+      "nome": "Toddy",
+      "carne": "Picanha",
+      "pao": "Italiano Branco",
+      "opcionais": [
+        "Bacon",
+        "Salame",
+        "Cebola roxa",
+        "Pepino",
+        "Tomate",
+        "Cheddar"
+      ],
+      "status": "Solicitado",
+      "id": 10
+    },
+    {
+      "nome": "Kira",
+      "carne": "Maminha",
+      "pao": "Parmesão e Orégano",
+      "opcionais": [
+        "Bacon",
+        "Salame",
+        "Cheddar"
+      ],
+      "status": "Em produção",
+      "id": 11
     }
   ]
 }
