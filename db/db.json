@@ -81,5 +81,120 @@
       "tipo": "Finalizado"
     }
   ],
-  "burgers": []
+  "burgers": [
+    {
+      "nome": "Victor Martinez",
+      "carne": "Maminha",
+      "pao": "3 Queijos",
+      "opcionais": [
+        "Bacon",
+        "Salame",
+        "Cheddar"
+      ],
+      "status": "Solicitado",
+      "id": 1
+    },
+    {
+      "nome": "Laura Prado",
+      "carne": "Veggie burger",
+      "pao": "Integral",
+      "opcionais": [
+        "Cebola roxa",
+        "Tomate",
+        "Pepino"
+      ],
+      "status": "Solicitado",
+      "id": 2
+    },
+    {
+      "nome": "Kira",
+      "carne": "Maminha",
+      "pao": "Parmesão e Orégano",
+      "opcionais": [],
+      "status": "Solicitado",
+      "id": 3
+    },
+    {
+      "nome": "Toddy",
+      "carne": "Alcatra",
+      "pao": "Italiano Branco",
+      "opcionais": [
+        "Tomate",
+        "Pepino",
+        "Cheddar",
+        "Bacon",
+        "Salame",
+        "Cebola roxa"
+      ],
+      "status": "Solicitado",
+      "id": 4
+    },
+    {
+      "nome": "Alice",
+      "carne": "Picanha",
+      "pao": "Pão Mexicano",
+      "opcionais": [
+        "Cheddar",
+        "Tomate"
+      ],
+      "status": "Solicitado",
+      "id": 5
+    },
+    {
+      "nome": "Mel",
+      "carne": "Maminha",
+      "pao": "3 Queijos",
+      "opcionais": [],
+      "status": "Solicitado",
+      "id": 6
+    },
+    {
+      "nome": "Tuco",
+      "carne": "Veggie burger",
+      "pao": "Integral",
+      "opcionais": [
+        "Cebola roxa",
+        "Pepino",
+        "Tomate"
+      ],
+      "status": "Solicitado",
+      "id": 7
+    },
+    {
+      "nome": "Veigar",
+      "carne": "Picanha",
+      "pao": "Italiano Branco",
+      "opcionais": [
+        "Bacon",
+        "Salame",
+        "Cebola roxa"
+      ],
+      "status": "Solicitado",
+      "id": 8
+    },
+    {
+      "nome": "Lulu",
+      "carne": "Maminha",
+      "pao": "Parmesão e Orégano",
+      "opcionais": [
+        "Bacon",
+        "Salame",
+        "Cheddar"
+      ],
+      "status": "Solicitado",
+      "id": 9
+    },
+    {
+      "nome": "Poppy",
+      "carne": "Veggie burger",
+      "pao": "3 Queijos",
+      "opcionais": [
+        "Cebola roxa",
+        "Pepino",
+        "Tomate"
+      ],
+      "status": "Solicitado",
+      "id": 10
+    }
+  ]
 }
