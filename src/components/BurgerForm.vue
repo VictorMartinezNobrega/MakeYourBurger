@@ -27,10 +27,10 @@
                 </div>
                 <div id="opcionais-container" class="input-container">
                   <label id="opcionais-title" for="opcionais">Selecione os opcionais:</label>
-                    <div class="checkbox-container" v-for="opcional in opcionaisdata" :key="opcional.id">
-                      <input type="checkbox" name="opcionais" v-model="opcionais" :value="opcional.tipo">
-                        <span>{{ opcional.tipo }}</span>
-                    </div>
+                  <div class="checkbox-container" v-for="opcional in opcionaisdata" :key="opcional.id">
+                    <input type="checkbox" name="opcionais" v-model="opcionais" :value="opcional.tipo">
+                    <span>{{ opcional.tipo }}</span>
+                  </div>
                 </div>
                 <div class="input-container">
                     <input class="submit-btn" type="submit" value="Criar meu Burger!">
@@ -57,6 +57,7 @@ export default {
       carne: null,       //<<<<dados que serão envidados
       opcionais: [],       //<<<<dados que serão envidados um array pois pode ser mais de 1
 
+      status: "Solicitado",
       msg: null
     }
   },
@@ -112,7 +113,7 @@ export default {
         this.nome = "";
         this.pao = "";
         this.carne = "";
-        this.opcionais = "";
+        this.opcionais = []
 
     }
   },
