@@ -20,6 +20,14 @@
       {
         "id": 5,
         "tipo": "Pão Mexicano"
+      },
+      {
+        "id": 6,
+        "tipo": "Pão de Forma"
+      },
+      {
+        "id": 7,
+        "tipo": "Pão Francês"
       }
     ],
     "carnes": [
@@ -38,6 +46,18 @@
       {
         "id": 4,
         "tipo": "Veggie burger"
+      },
+      {
+        "id": 5,
+        "tipo": "Filé de Frango"
+      },
+      {
+        "id": 6,
+        "tipo": "Salmão"
+      },
+      {
+        "id": 4,
+        "tipo": "Carnde Suína"
       }
     ],
     "opcionais": [
@@ -58,12 +78,36 @@
         "tipo": "Tomate"
       },
       {
-        "id": 4,
+        "id": 5,
         "tipo": "Cebola roxa"
       },
       {
-        "id": 4,
+        "id": 6,
+        "tipo": "Cebola caramelizada"
+      },
+      {
+        "id": 7,
         "tipo": "Pepino"
+      },
+      {
+        "id": 8,
+        "tipo": "Catupiry"
+      },
+      {
+        "id": 9,
+        "tipo": "Molho especial"
+      },
+      {
+        "id": 10,
+        "tipo": "Alface"
+      },
+      {
+        "id": 11,
+        "tipo": "Shimeji"
+      },
+      {
+        "id": 12,
+        "tipo": "Azeitona"
       }
     ]
   },
@@ -81,5 +125,14 @@
       "tipo": "Finalizado"
     }
   ],
-  "burgers": []
+  "burgers": [
+    {
+      "nome": null,
+      "carne": null,
+      "pao": "Pão de Forma",
+      "opcionais": [],
+      "status": "Solicitado",
+      "id": 1
+    }
+  ]
 }
