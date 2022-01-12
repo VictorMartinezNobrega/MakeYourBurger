@@ -4,8 +4,10 @@
       <router-link id="logo-url" to="/">        <!--Propriedade "to" diz para onde vai levar-->
         <img id="logo" :src="logo" :alt="alt">  
       </router-link>
+
       <p>Modo noturno</p>
-      <input type="checkbox" hidden="hidden" id="username">
+      <input type="checkbox" hidden="hidden" id="username"  :checked="(mode === 'dark')? 'checked' : false" @change="$emit('toggle')">
+
       <label class="switch" for="username"></label>
 
       <router-link to="/">Fazer Pedido</router-link>
@@ -16,6 +18,7 @@
 
 <script>
 export default {
+  props: ['mode'],
   name: "Navbar",
   props: ["logo", "alt"]
 }

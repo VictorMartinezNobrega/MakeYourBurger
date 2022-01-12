@@ -44,6 +44,7 @@
 import Message from "./Message.vue";
 
 export default {
+  props: ['mode'],
   name: "BurgerForm",
 
   data() {
@@ -143,6 +144,13 @@ export default {
     padding: 5px 10px;
     border-left: 4px solid #fcba03;
   }
+  .dark label {
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #E8E8E8;;
+    padding: 5px 10px;
+    border-left: 4px solid #fcba03;
+  }
   input, select {
     padding: 5px 10px;
     width: 300px;
@@ -178,6 +186,7 @@ export default {
     margin: 0 auto;
     cursor: pointer;
     transition: .5s;
+    border: 2px solid #fcba03;
   }
   .submit-btn:hover {
     background-color: transparent;

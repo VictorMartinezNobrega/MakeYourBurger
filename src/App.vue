@@ -1,8 +1,10 @@
 <template>
-  <Navbar :logo="logo_src" :alt="app_name"/>
+  <div class="app" :class="mode">
+  <Navbar :logo="logo_src" :alt="app_name" :mode="mode" @toggle="toggle"/>
   <router-view/>  <!--Imprime as rotas aqui-->
   <button id="back-to-top" @click="up()">Voltar ao topo</button>
   <Footer />
+  </div>
 </template>
 
 <script>
@@ -12,6 +14,7 @@ import Footer from './components/Footer.vue';
 export default{
   data () {
     return{
+      mode: 'light',
       logo_src: "/img/logo.png",
       app_name: "Make Your Burguer",
       btn: document.querySelector("#back-to-top")
@@ -20,6 +23,13 @@ export default{
   methods:{
     up() {
     window.scrollTo(0, 0)
+    },
+        toggle () {
+      if (this.mode === "dark") {
+        this.mode = "light"
+      } else {
+        this.mode = "dark"
+      }
     }
   },
   components: {
@@ -60,5 +70,9 @@ export default{
     margin: 0 auto;
     cursor: pointer;
     transition: .5s;
+  }
+  .dark {
+    background: #192734;
+    color: #E8E8E8;
   }
 </style>
